@@ -9,6 +9,7 @@ const commentsReducer = (state, action) => {
   switch (type) {
     case "GET_COMMENTS_BY_ID":
       state = payload;
+      console.log(state)
       break;
     case "DELETE_ALL_COMMENTS":
       state = payload;

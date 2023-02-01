@@ -1,7 +1,8 @@
 .mainSpace {
-  height: 500vh;
+  height: 700vh;
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: black;
 
 }

@@ -3,6 +3,7 @@ import Header from "./Header";
 import "../css/main.css";
 import Content from "./Content";
 import Welcome from "./Welcome";
+import About from "./About";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       <Header />
       <Welcome />
       <Content />
+      <About />
     </div>
   );
 };

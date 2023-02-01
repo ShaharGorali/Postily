@@ -8,9 +8,9 @@ function ScrollersProvider(props) {
   const homeClick = () => {
     homeRef.current.scrollIntoView({ behavior: "smooth" });
   };
-  const profileRef = useRef(null);
-  const profileClick = () => {
-    profileRef.current.scrollIntoView({ behavior: "smooth" });
+  const aboutRef = useRef(null);
+  const aboutClick = () => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
   };
   const contentRef = useRef(null);
   const contentClick = () => {
@@ -21,8 +21,8 @@ function ScrollersProvider(props) {
       value={{
         homeRef,
         homeClick,
-        profileRef,
-        profileClick,
+        aboutRef,
+        aboutClick,
         contentRef,
         contentClick,
       }}

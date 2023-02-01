@@ -5,7 +5,7 @@ import { ScrollersContext } from "./../context/scrollers";
 import { CommentsContext } from "./../context/Comments";
 
 const Content = () => {
-  const { contentRef } = useContext(ScrollersContext);
+  const { contentRef, aboutRef } = useContext(ScrollersContext);
   const { comments } = useContext(CommentsContext);
   useEffect(() => {}, [comments]);
   return (

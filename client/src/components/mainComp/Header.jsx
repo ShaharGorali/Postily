@@ -8,7 +8,7 @@ const Header = () => {
     homeRef,
     homeClick,
     profileRef,
-    profileClick,
+    aboutClick,
     contentRef,
     contentClick,
   } = useContext(ScrollersContext);
@@ -16,7 +16,7 @@ const Header = () => {
     <div className="headerSpace">
       <h2 id="logo" onClick={homeClick}>POSTILY</h2>
       <a onClick={contentClick}>Our Posts</a>
-      <a onClick={profileClick}>About us</a>
+      <a onClick={aboutClick}>About us</a>
     </div>
   );
 };
